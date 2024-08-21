@@ -1,0 +1,25 @@
+body
+{
+    margin 0;
+    padding: 0;
+    background-color: rgb(177, 255, 255);
+    height: 100vh;
+}
+.card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 500px;
+    padding: 16px;
+    max-width: 400px;
+    background-color: rgb(249, 218, 249);
+    text-align: center;
+    box-shadow: 0 28px 40px -8px #2a0cac;
+}
+.card img
+{
+    width: 350px;
+}
