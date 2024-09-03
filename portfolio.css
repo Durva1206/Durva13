@@ -88,4 +88,107 @@ a
     color: rgb(106, 0, 255);
     font-size: 30px;
 }
-
+.landing
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.Language
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.langtag
+{
+    color: rgb(140, 28, 244);
+}
+.langspan
+{
+    color: rgb(170, 255, 0);
+    padding: 0px 0px 0px 10px;
+}
+.langwrapper
+{
+    background-color: rgb(249, 225, 195);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0 10px 0 ;
+    padding: 15px 10px 15px 10px;
+}
+.langlogo
+{
+    font-size: 90px;
+}
+.iconwrap
+{
+    width: 30%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconname
+{
+    margin-right: 25px;
+}
+.iconname p
+{
+    color: rgb(92, 2, 238);
+}
+.phover
+{
+    opacity: 0;
+}
+.iconwrap:hover .phover
+{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 0.81s ease-in-out;
+    opacity: 1;
+}
+.iconwrap:hover .langlogo
+{
+    transition: transform 300ms ease-in-out;
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+#langtags
+{
+    margin-top: 30px;
+    font-size: 40px;
+    color: lightcoral;
+}
+#LangSpan
+{
+    color: blueviolet;
+}
+@media only screen and (max-width: 688px)
+{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }  
+ body 
+  {
+    height: 100vh;
+  }
+  #navbar 
+  {
+    height: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}  
