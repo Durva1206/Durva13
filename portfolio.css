@@ -173,22 +173,3 @@ a
 {
     color: blueviolet;
 }
-@media only screen and (max-width: 688px)
-{
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }  
- body 
-  {
-    height: 100vh;
-  }
-  #navbar 
-  {
-    height: 100;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}  
