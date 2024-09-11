@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     height: 100vh;
     background-color: rgb(10, 25, 62);
+    position: relative;
 }
-nav
-{
+
+nav {
     background-color: rgb(10, 20, 100);
     height: 15vh;
     font-size: 20px;
@@ -17,23 +18,25 @@ nav
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-
+    position: sticky;
+    top: 0;
 }
-nav h1
-{
+
+nav h1 {
     font-size: 40px;
     font-weight: bold;
     margin-left: 80px;
     color: rgb(245, 235, 255);
+    
 }
-nav ul
-{
+
+nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-a
-{
+
+a {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,66 +46,69 @@ a
     text-decoration: none;
     color: rgb(254, 253, 255);
 }
-#Contact
-{
+
+#Contact {
     border-radius: 30px;
     background-color: rgb(0, 28, 165);
     color: aliceblue;
     padding: 5px 10px 5px 10px;
 }
-.main
-{
+
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 85vh;
 }
-.main img
-{
-    height: 260px;
-    width: 260px;
+
+.main img {
+    height: 50vh;
+    width: 50vh;
     box-sizing: border-box;
-    border: 5px solid ;
+    border: 5px solid;
     border-radius: 50%;
     margin-top: 10px;
 }
-.main h2
-{
+
+.main h2 {
     font-size: 30px;
     margin-top: 20px;
     color: rgb(255, 255, 255);
 }
-.main p
-{
+
+.main p {
     text-align: center;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    width: 60%;
+    height: auto;
     color: antiquewhite;
 }
-.fa-brands, .fa-solid
-{
+
+.fa-brands,
+.fa-solid {
     margin-top: 15px;
     padding: 0px 20px 0px 20px;
     color: rgb(254, 254, 254);
     font-size: 30px;
 }
-.landing
-{
+
+.landing {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
 }
-#Land
-{
+
+#Land {
     height: 100vh;
 }
-.Language
-{
+
+.Language {
     margin-top: 200px;
     display: flex;
     justify-content: center;
@@ -110,31 +116,31 @@ a
     font-size: 28px;
     font-weight: bold;
 }
-.langtag
-{
+
+.langtag {
     color: white;
 }
-.langspan
-{
+
+.langspan {
     color: rgb(254, 253, 178);
     padding: 0px 0px 0px 10px;
 }
-.langwrapper
-{
+
+.langwrapper {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 100px 0 10px 0 ;
+    margin: 100px 0 10px 0;
     padding: 15px 10px 15px 10px;
 }
-.langlogo
-{
+
+.langlogo {
     font-size: 90px;
 }
-.iconwrap
-{
+
+.iconwrap {
     width: 30%;
     height: 170px;
     display: flex;
@@ -143,39 +149,52 @@ a
     align-items: center;
     flex-direction: column;
 }
-.iconname
-{
+
+.iconname {
     margin-right: 25px;
 }
-.iconname p
-{
+
+.iconname p {
     color: antiquewhite;
 }
-.phover
-{
+
+.phover {
     opacity: 0;
 }
-.iconwrap:hover .phover
-{
+
+.iconwrap:hover .phover {
     color: antiquewhite;
     font-weight: bold;
     font-size: 30px;
     transition: all 0.81s ease-in-out;
     opacity: 1;
 }
-.iconwrap:hover .langlogo
-{
+
+.iconwrap:hover .langlogo {
     transition: transform 300ms ease-in-out;
     transform: scale(0.9);
     opacity: 0.7;
 }
-#langtags
-{
+
+#langtags {
     margin-top: 30px;
     font-size: 40px;
     color: lightcoral;
 }
-#LangSpan
-{
+
+#LangSpan {
     color: rgb(248, 244, 250);
+}
+
+.page1 {
+    height: 100vh;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    margin-top: 30px;
+    font-size: 20px;
 }
